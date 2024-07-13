@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+.warp {
+  background-color: #000000;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.bc-white {
+  background-color: #fff;
+}
+
+.me-5 {
+  margin-right: 24px;
+}
+
+.mb--24 {
+  margin-bottom: -28px;
+}
+
+.menu {
+  padding: 52px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu .break-word {
+  width: 278px;
+}
+
+.section {
+  padding-top: 72px;
+}
+.section .title {
+  width: 636px;
+  padding-top: 160px;
+}
+.section .title h1 {
+  font-size: 128px;
+  color: #00FFA3;
+  text-align: right;
+}
+
+.button {
+  justify-content: flex-end;
+}
+.button .btn {
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 32px;
+  background-color: #fff;
+  color: #000000;
+}
+
+.content {
+  padding-top: 120px;
+  gap: 24px;
+}
+.content .text p {
+  font-size: 24px;
+  padding: 36px 0 32px 0;
+}
+
+.sparkle-group {
+  gap: 16px;
+}
+.sparkle-group .sparkle {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true");
+  width: 32px;
+  height: 98px;
+}
+
+.img-group {
+  gap: 24px;
+}
+
+.banner {
+  color: #000000;
+  justify-content: space-between;
+}
+.banner h3 {
+  font-size: 20px;
+}
+
+.list {
+  width: 636px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 206px 0;
+  gap: 24px;
+}
+.list li {
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+}
+
+.list-group {
+  width: 526px;
+  margin: 160px 0;
+}
+.list-group p {
+  font-size: 24px;
+  padding-top: 36px;
+}
+
+.service {
+  padding: 96px 0;
+}
+
+.img-group {
+  justify-content: space-between;
+  align-items: center;
+}
+.img-group .text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img-group .text h2 {
+  margin-right: 16px;
+}
+.img-group .community ul {
+  gap: 20px;
+}
+.img-group .community ul img:hover {
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 4px rgba(144, 148, 255, 0.9);
+}
+
+.main {
+  color: #000000;
+  padding: 160px 0;
+}
+.main .title {
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+.main .title h2 {
+  width: 746px;
+  text-align: left;
+}
+.main .column-left {
+  width: 856px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .column-right {
+  width: 636px;
+}
+
+.footer {
+  padding: 40px;
+  text-align: center;
+}/*# sourceMappingURL=all.css.map */
